@@ -77,11 +77,22 @@ flag_for_response("Broken after one use.", "neutral", keywords=["broken", "refun
 # True
 ```
 
+## Jupyter Notebook
+
+A notebook is available at `notebooks/amazon_reviews_analysis.ipynb` for exploratory analysis, model loading, and `flag_for_response` examples.
+
+**Kernel**: Use the **Python (Lab1)** kernel. To register it:
+
+```bash
+python -m ipykernel install --user --name=lab1 --display-name="Python (Lab1)"
+```
+
 ## Dependencies
 
 - pandas, numpy  
 - scikit-learn  
 - matplotlib, seaborn  
 - joblib  
+- ipykernel (for Jupyter)
 
 See `requirements.txt` for versions.
